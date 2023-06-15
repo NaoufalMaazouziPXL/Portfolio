@@ -9,6 +9,11 @@ html, body {
     padding: 0;
 }
 
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 /* 600 = Semi-Bold */
 /* 700 = Bold */
 /* 500 = Medium */
@@ -64,7 +69,7 @@ html, body {
 /* ABOUT ME */
 
 .about {
-    height: 100vh;
+    margin-top: 75px;
 }
 
 .page-title {
@@ -243,11 +248,20 @@ html, body {
     padding: 15px;
 }
 
-/*.navbar-toggler-icon {
-    background-image: url("assets/hamburger_icon.png") !important;
-}*/
 
 .navbar-light .navbar-toggler {
     color: white !important;
     border-color: white !important;
 }
+
+/* ... previous styles ... */
+
+/* Media Query for screens below 414px */
+@media (max-width: 414px) {
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+
+
+}
+
