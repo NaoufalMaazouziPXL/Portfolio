@@ -2,26 +2,375 @@
 <html lang="en">
 <head>
     <!-- META -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Naoufal's | Portfolio</title>
-
-    <!-- LINKS -->
-    <!-- Naoufal's Stylesheet link -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap 5 link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
 
     <!-- SCRIPTS -->
     <!-- Naoufal's script  -->
     <script defer src="script.js"></script>
     <!-- Bootstrap 5 script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+    <!-- LINKS -->
+    <!-- Unison icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Bootstrap 5 link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Naoufal's Stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Naoufal's logo in favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 
 </head>
 <body>
+<!-- Navigation bar -->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item px-5">
+                    <a class="nav-link" aria-current="page" href="#aboutme">About me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        My work
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#graphicdesign">Graphic Design</a></li>
+                        <li><a class="dropdown-item" href="#branding">Branding</a></li>
+                        <li><a class="dropdown-item" href="#">UX/UI Design</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item px-5">
+                    <a class="nav-link" href="#contactme">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- Main container -->
+<!-- Landingspage -->
+
+<div class="container ">
+    <div class="row hero align-items-center">
+        <div class="hero-banner col-12">
+            <h1>Hello, I'm</h1>
+            <h1>Naoufal <span class="yellow-underline">Maazouzi</span></h1>
+            <h4>Student digitale vormgeving</h4>
+        </div>
+    </div>
+</div>
+
+<!-- About me section -->
+<div class="container">
+    <div id="aboutme" class="row about align-items-center">
+        <div class="col-md-8">
+            <div class="row row-title">
+                <h2 class="page-title">About me</h2>
+            </div>
+            <div class="row row-sub-title">
+                <h3 class="page-sub-title">
+                    A creative designer with passion
+                </h3>
+                <h3 class="page-sub-title mb-2">
+                    for creating visually compelling websites
+                </h3>
+            </div>
+            <div class="row row-content">
+                <p class="page-content">
+                    Hello! My name is Naoufal, and I am passionate about web design and UX/UI design. With a strong
+                    background in this field, I possess experience and proficiency in various design tools such as Figma
+                    and Adobe XD. My skill set also includes working in HTML, CSS, and JavaScript, allowing me to bring
+                    my designs to life with interactive and engaging features.
+                </p>
+                <p class="page-content">
+                    One of my greatest strengths is my keen eye for detail. I believe that even the smallest elements
+                    can significantly impact the overall user experience, and I strive to create visually appealing and
+                    user-friendly interfaces that captivate and delight users. I have a solid understand of visual
+                    hierarchy, components library, wire framing, visual designing, prototyping, high and low -fidelity
+                    and more!
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row skills-container">
+
+                <div class="skills-box-title pt-4 ps-4 col-12">
+                    <h5 id="skills-title">Skills</h5>
+                </div>
+
+                <div class="row skills-box-wrapper">
+
+                    <div class="col-4 ps-4">
+                        <h6>Figma</h6>
+                    </div>
+                    <div class="col-8 yellow-skills-bar-wrapper">
+                        <div id="figma-bar" class="yellow-skills-bar">
+                        </div>
+                    </div>
+
+                    <div class="col-4 ps-4">
+                        <h6>Adobe Xd</h6>
+                    </div>
+                    <div class="col-8 yellow-skills-bar-wrapper">
+                        <div id="adobexd-bar" class="yellow-skills-bar">
+                        </div>
+                    </div>
+
+                    <div class="col-4 ps-4">
+                        <h6>Photoshop</h6>
+                    </div>
+                    <div class="col-8 yellow-skills-bar-wrapper">
+                        <div id="photoshop-bar" class="yellow-skills-bar">
+                        </div>
+                    </div>
+
+                    <div class="col-4 ps-4">
+                        <h6>Illustrator</h6>
+                    </div>
+                    <div class="col-8 yellow-skills-bar-wrapper">
+                        <div id="illustrator-bar" class="yellow-skills-bar">
+                        </div>
+                    </div>
+
+                    <div class="col-4 ps-4">
+                        <h6>HTML</h6>
+                    </div>
+                    <div class="col-8 yellow-skills-bar-wrapper">
+                        <div id="html-bar" class="yellow-skills-bar">
+                        </div>
+                    </div>
+
+                    <div class="col-4 ps-4">
+                        <h6>CSS</h6>
+                    </div>
+                    <div class="col-8 yellow-skills-bar-wrapper">
+                        <div id="css-bar" class="yellow-skills-bar">
+                        </div>
+                    </div>
+
+                    <div class="col-4 ps-4">
+                        <h6>JavaScript</h6>
+                    </div>
+                    <div class="col-8 yellow-skills-bar-wrapper">
+                        <div id="javascript-bar" class="yellow-skills-bar">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- My work section [graphic design] -->
+<div class="container">
+    <div id="graphicdesign" class="row work align-items-center">
+        <div class="col-md-12 mt-5">
+            <div class="row row-title">
+                <h2 class="page-title">My work</h2>
+            </div>
+            <div class="row row-sub-title">
+                <h3 class="page-sub-title">
+                    Graphic design
+                </h3>
+            </div>
+            <div class="row boxes-container">
+                <div class="col-md-4">
+                    <div class="col-12 long-box">
+                        <img src="assets/AI-with-ladywater.png" alt="">
+                    </div>
+                    <div class="col-12 short-box">
+                        <img src="assets/Oefening1_Maan.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="col-12 short-box">
+                        <img src="assets/AttackOnLizard.png" alt="">
+                    </div>
+                    <div class="col-12 short-box">
+                        <img src="assets/ichigo-black.png" alt="">
+                    </div>
+                    <div class="col-12 short-box">
+                        <img src="assets/Naoufal.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col-12 long-box">
+                        <img src="assets/pxl-mockup-1.png" alt="">
+                    </div>
+                    <div class="col-12 short-box">
+                        <img src="assets/blikjes_leeg-Hersteld.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- My work section [Branding] -->
+<div class="container">
+    <div id="branding" class="row work align-items-center">
+        <div class="col-12">
+
+            <div class="row row-sub-title">
+                <h3 class="page-sub-title">
+                    Branding - Blue Sea
+                </h3>
+            </div>
+            <div class="row boxes-container">
+                <div class="col-md-9 big-box">
+                    <img src="assets/SVG/Brand%20guidelines.svg" alt="">
+                </div>
+                <div class="col-md-3 small-box">
+                    <h3 class="page-sub-title">Blue Sea</h3>
+                    <p>
+                        Blue Sea is a personal project, we had to make a logo first based on a vision and mission
+                        statement and with that logo create out brand book.
+                    </p>
+                    <a href="#"><span class="yellow-underline">Check it out!</span></a>
+                </div>
+            </div>
+
+            <div class="row row-sub-title">
+                <h3 class="page-sub-title">
+                    Branding - RiseUp
+                </h3>
+            </div>
+            <div class="row boxes-container">
+                <div class="col-md-9 big-box">
+                    <img src="assets/Brandbook%20RiseUp_Page_01.jpg" alt="">
+                </div>
+                <div class="col-md-3 small-box">
+                    <h3 class="page-sub-title">RiseUp</h3>
+                    <p>
+                        RiseUp was a school project, one of the deliverables was making our own brand book based on our
+                        branding research and brand personality.
+                    </p>
+                    <a href="#"><span class="yellow-underline">Check it out!</span></a>
+                </div>
+            </div>
+
+            <div class="row row-sub-title">
+                <h3 class="page-sub-title">
+                    Branding - TinyHouse
+                </h3>
+            </div>
+            <div class="row boxes-container">
+                <div class="col-md-9 big-box">
+                    <img src="assets/SVG/Artboard%201.svg" alt="">
+                </div>
+                <div class="col-md-3 small-box">
+                    <h3 class="page-sub-title">TinyHouse</h3>
+                    <p>
+                        RiseUp was a school assignment, we had to make a logo first based on a vision and mission
+                        statement and with that logo create out brand book.
+                    </p>
+                    <a href="#"><span class="yellow-underline">Check it out!</span></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Contact me section -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="title-wrapper">
+                <h2 class="page-title">Let's <span class="yellow-underline">connect!</span></h2>
+                <h3 class="page-sub-title">U can reach me by sending a message.</h3>
+            </div>
+            <div class="form-wrapper">
+                <form action="mailto:nouafelcf@hotmail.com">
+                    <label for="fname"></label><br>
+                    <input type="text" id="fname" name="fname" value="Name"><br>
+                    <label for="mail"></label><br>
+                    <input type="email" id="mail" name="mail" value="Mail"><br>
+                    <label for="message"></label><br>
+                    <input type="text" id="message" name="message" value="Message"><br><br>
+                    <input id="submit-form" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+    </div>
+</div>
+
+<!-- Footer section-->
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© Naoufal Maazouzi</span>
+        </div>
+
+        <ul class="nav social-media col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a href="https://www.linkedin.com/in/naoufal-maazouzi-6929171a2/" class="social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="https://github.com/NaoufalMaazouziPXL" class="social-link">
+                    <i class="uil uil-github"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="https://www.behance.net/naoufalmaazouzi" class="social-link">
+                    <i class="uil uil-behance"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="mailto:nouafelcf@hotmail.com" class="social-link">
+                    <i class="uil uil-fast-mail"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
 
 </body>
 </html>
+
+<!--      <ul class="social-media">
+            <li>
+                <a href="https://www.linkedin.com/in/naoufal-maazouzi-6929171a2/" class="social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/NaoufalMaazouziPXL" class="social-link">
+                    <i class="uil uil-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.behance.net/naoufalmaazouzi" class="social-link">
+                    <i class="uil uil-behance"></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:nouafelcf@hotmail.com" class="social-link">
+                    <i class="uil uil-fast-mail"></i>
+                </a>
+            </li>
+        </ul>
+-->
