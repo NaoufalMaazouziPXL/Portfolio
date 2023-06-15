@@ -9,6 +9,7 @@ html, body {
     padding: 0;
 }
 
+/* 600 = Semi-Bold */
 /* 700 = Bold */
 /* 500 = Medium */
 /* 400 = Regular */
@@ -28,7 +29,7 @@ html, body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fa7e00;
+    color: #0000FF;
 }
 
 
@@ -57,7 +58,7 @@ html, body {
 }
 
 .yellow-underline {
-    text-decoration: underline #fa7e00;
+    text-decoration: underline #0000FF;
 }
 
 /* ABOUT ME */
@@ -67,7 +68,7 @@ html, body {
 }
 
 .page-title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 4rem;
 }
 
@@ -92,8 +93,8 @@ html, body {
 }
 
 .yellow-skills-bar {
-    height: 25px;
-    background-color: #fa7e00;
+    height: 20px;
+    background-color: #0000FF;
     border-radius: 10px;
 }
 
@@ -200,7 +201,7 @@ html, body {
 }
 
 #submit-form {
-    background-color: #fa7e00;
+    background-color: #0000FF;
     color: white;
     border: none;
     border-radius: 5px;
@@ -213,7 +214,7 @@ html, body {
 
 
 .social-link i:hover {
-    color: #fa7e00;;
+    color: #0000FF;
 }
 .social-media li a:hover {
     background-color: white;
@@ -234,7 +235,7 @@ html, body {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: #fa7e00;
+    background-color: #0000FF;
     border-radius: 50%;
 }
 
